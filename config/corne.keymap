@@ -31,16 +31,16 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  Q  |  W  |  E  |  R  |  T  |     |  Z   |  U   |  I   |  O   | P |
-// |  A  |  S  |  D  |  F  |  G  |     |  H   |  J   |  K   |  L   | ' | 
-// |  Y  |  X  |  C  |  V  |  B  |     |  N   |  M   | CTRL | META | . |
-//             | GUI | LWR | SPC |     | BSPC | RSE  | ENT |
+// |  ESC    |  1  |  2  |  3  |  4  |     |  Z   |  U   |  I   |  O   | P |
+// |  TAB    |  Q  |  W  |  E  |  R  |     |  H   |  J   |  K   |  L   | ' | 
+// |  SHIFT  |  A  |  5  |  6  |  B  |     |  N   |  M   | CTRL | META | . |
+//             | RALT | LWR | SPC |     | BSPC | RSE  | ENT |
                         display-name = "Base";
                         bindings = <
-   AS(Q) AS(W) AS(E) AS(R) AS(T)     AS(Z)   AS(U)  AS(I)     AS(O)     AS(P)
-   AS(A) AS(S) AS(D) AS(F) AS(G)     AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
-   AS(Y) AS(X) AS(C) AS(V) AS(B)     AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
-        &kp LGUI &mo 1 &kp SPACE     &kp BSPC &mo 2  AS(RET)
+   AS(ESC) AS(N1) AS(N2) AS(N3) AS(N4)     AS(Z)   AS(U)  AS(I)     AS(O)     AS(P)
+   AS(TAB) AS(Q) AS(W) AS(E) AS(R)         AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
+   AS(SHIFT) AS(A) AS(N5) AS(N6) AS(B)     AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
+        &kp RALT &mo 1 &kp SPACE           &kp BSPC &mo 2  AS(RET)
                         >;
                 };
 
