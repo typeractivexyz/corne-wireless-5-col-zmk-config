@@ -74,5 +74,17 @@
                        &kp LGUI  &kp ESC   &kp SPACE     AS(RET)   &trans    &kp TAB
                         >;
                 };
+
+                extra_1 {
+                        status = "reserved";
+                };
+
+                extra_2 {
+                        status = "reserved";
+                };
+
+                extra_3 {
+                        status = "reserved";
+                };
         };
 };
